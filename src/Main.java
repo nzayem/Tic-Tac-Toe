@@ -82,7 +82,7 @@ public class Main {
                     System.out.println("O wins");
                     break;
 
-                } else if ((!winCase(boardMatrix, "X") && !winCase(boardMatrix, "O") && counterEmpty == 0)) {
+                } else if (counterEmpty == 0) {
 
                     System.out.println("Draw");
                     break;
